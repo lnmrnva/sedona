@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./styles/normalize.css" rel="stylesheet">
+    <link href="./styles/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <section class="header__nav--link">   
+            <img src="shared/icons/logo1.svg" width="139" height="70"> <!--фигнюшка сверху-->
+            <nav class="header__nav">
+                <ul class="header__content">
+                    <li class="header__item"><a class="link" href="#part1">Главная</a></li>
+                    <li class="header__item"><a class="link" href="#part2">О Седоне</a></li>
+                    <li class="header__item"><a class="link" href="#part3">Гостиницы</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="header__action">
+            <a><img src="shared/icons/search.svg" width="18.05" height="18.1" class="search"></a><!--лупа-->
+            <a><img src="shared/icons/favorite.svg" width="18.05" height="17" class="favorite"></a><!--сердечко-->
+            <button class="btn">ХОЧУ СЮДА!</button>
+        </section>
+    </header>
+
+    <main>
+        <section id="part1" >
+            <div class="part1__background">
+                <img class="part1__text--on--img" src="shared/icons/welcome (1).svg" width="458" height="352">
+                <img src="shared/icons/divider.svg" width="1200" height="57">
+            </div>
+            <div class="part1__text">
+                <h1 class="maintext">СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br> ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
+                <p class="secondarytext">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+            </div>
+        </section>
+
+        <section id="part2" >
+            <dl class="main__part2" >
+                    <div class="part2__unit">
+                        <dt class="part2__unit--title"><h3>НАСТОЯЩИЙ<br> ГОРОДОК</h3></dt>
+                            <dd>-№1-</dd>
+                            <dd>Седона - не аттракцион для<br> туристов, там течет своя<br> жизнь</dd>
+                    </div>
+                    <img src="shared/img/photo-1.png" class="part2__img1"><!--сад сакуры-->
+                    <div class="part2__unit">
+                        <img src="shared/icons/house.svg" width="75" height="72">
+                        <dt class="part2__unit--title"><h3>ЖИЛЬЕ</h3></dt>
+                            <dd>Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</dd>
+                    </div>
+                    <div class="part2__unit">
+                        <img src="shared/icons/burger.svg" width="75" height="72">
+                        <dt class="part2__unit--title"><h3>ЕДА</h3></dt>
+                            <dd>Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!</dd>
+                    </div>
+                    <div class="part2__unit">
+                        <img src="shared/icons/gift.svg" width="75" height="72">
+                        <dt class="part2__unit--title"><h3>СУВЕНИРЫ</h3></dt>
+                            <dd>Не только китайского,<br> но и настоящего местного<br> производства</dd>
+                    </div>
+                    <img src="shared/img/photo-2.png" class="part2__img1"><!--камни-->
+                    <div class="part2__unit">
+                        <dt class="part2__unit--title"><h3>ТАМ ЕСТЬ<br> МОСТ ДЬЯВОЛА</h3></dt>
+                            <dd>-№2-</dd>
+                            <dd>Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</dd>
+                    </div>
+                    <div class="part2__unit">
+                        <dt class="part2__unit--title"><h3>НЕБОЛЬШАЯ<br> ПЛОЩАДЬ</h3></dt>
+                            <dd>-№3-</dd>
+                            <dd>Все достопримечательности<br> находятся очень близко</dd>
+                    </div>
+                    <div class="part2__unit">
+                        <dt class="part2__unit--title"><h3>КРАСИВАЯ<br> ДОРОГА</h3></dt>
+                            <dd>-№4-</dd>
+                            <dd>Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</dd>
+                    </div>
+                    <div class="part2__unit">
+                        <dt class="part2__unit--title"><h3>МАЛО<br> ТУРИСТОВ</h3></dt>
+                            <dd>-№5-</dd>
+                            <dd>Большинство едет в Гранд<br> Каньон и толпится там</dd>
+                    </div>
+            </dl>
+        </section>
+
+        <section id="part3" class="part3">
+            <h1 class="maintext">ЗАИНТЕРЕСОВАЛИСЬ?</h1>
+            <p class="secondarytext">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <button class="btn btn__text--indent">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+        </section>
+
+        <section class="part__subscription--background part__subscription">
+            <h1 class="maintext--light">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h1>
+            <p class="secondarytext--light">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+            <div class="email">
+                <input type="email"  placeholder ="Ваш e-mail" class="email__input">
+                <button class="email__btn">ПОДПИСАТЬСЯ</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <ul class="footer__social">
+            <li class="footer__social--icon"><a href="#" class="footer__social--link"><img src="shared/icons/social-twitter.svg" ></a></li><!--вк-->
+            <li class="footer__social--icon"><a href="#" class="footer__social--link"><img src="shared/icons/social-facebook.svg" ></a></li><!--тг-->
+            <li class="footer__social--icon"><a href="#" class="footer__social--link"><img src="shared/icons/social-youtube.svg" ></a></li><!--ютуб-->
+        </ul>
+        <a href="tel:+78128121212" class="footer__tel link">+7 (812) 812-12-12</a>
+        <img src="shared/icons/logo_htmlacademy.svg" width="114.9" height="32.9"><!--лого-->
+    </footer>
+
+</body>
+</html>
